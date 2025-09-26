@@ -4,3 +4,4 @@ openai-whisper
 yt-dlp
 groq
 python-dotenv
+imageio-ffmpeg
