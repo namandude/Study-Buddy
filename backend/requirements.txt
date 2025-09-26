@@ -1,0 +1,6 @@
+flask
+flask-cors
+whisper
+yt-dlp
+groq
+python-dotenv
