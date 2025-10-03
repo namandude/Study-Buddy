@@ -18,18 +18,3 @@ def transcribe_audio(file_path):
     """
     result = model.transcribe(file_path, fp16=False)
     return result["text"]
-
-
-# import os
-
-# # Add ffmpeg bin folder to PATH
-# os.environ["PATH"] += os.pathsep + r"F:\ffmpeg-8.0-essentials_build\ffmpeg-8.0-essentials_build\bin"
-
-# import whisper
-
-# model = whisper.load_model("base")
-# def transcribe_audio(file_path):
-#   result = model.transcribe(file_path, fp16=False) 
-#   return result["text"]
-
-  
